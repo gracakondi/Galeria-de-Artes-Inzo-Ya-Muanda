@@ -317,17 +317,11 @@ nav ul {
         flex-wrap: wrap;
     }
 
-.footer{
-  justify-content: space-between;
+footer{
   background-color: #99151A;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 3rem;
-  padding: 4rem;
-  flex-wrap: wrap;
 }
 
-footer p { 
+.footer p { 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
   color: #ffffff;
   text-align: left;
@@ -336,9 +330,27 @@ footer p {
   font-size: 1rem;
 }
 
+.footer ul {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+  color: #ffffff;
+  line-height: 1.7;
+  font-size: 1rem;
+  margin: 0px;
+  padding: 0 0 0 1px;
+}
 footer h3 {
   color: #FFCB00;
-  font-size:  1.5rem; ;
+  font-size:  1.5rem;
+}
+
+.footer{
+  justify-content: space-between;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+  padding: 4rem;
+  flex-wrap: wrap;
 }
 
 .footer-1 {
